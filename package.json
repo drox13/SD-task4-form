@@ -1,0 +1,23 @@
+{
+  "name": "sd-task4-form",
+  "version": "1.0.0",
+  "description": "Usando Javascript(vanilla) del lado cliente crear un formulario para registrar un producto ingresando el nombre y el precio, que retorne y pinte la lista de elementos registrados.",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drox13/SD-task4-form.git"
+  },
+  "author": "Dario Baron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drox13/SD-task4-form/issues"
+  },
+  "homepage": "https://github.com/drox13/SD-task4-form#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
