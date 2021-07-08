@@ -19,7 +19,6 @@ app.get('/', function (req, res) {
 })
 
 app.post('/element', function (req, res) {
-    console.log(req);
     var product = {"product:": req.body.product, "price": parseInt(req.body.price) };
     productList.push(product);
     res.send(productList);
